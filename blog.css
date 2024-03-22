@@ -221,28 +221,15 @@ section {
 }
   
 
-/* ----------------------------------------------------------------    header css ends ---------     */
-
-
-/* ---------------------banner css */
-
 .banner-area {
     height: 60vh;
     width: 100%;
     background: linear-gradient( #1c1a2521, #000000ab),url(../images/blogbanner.jpg) no-repeat;
-    /* background-color: #eee; */
     background-attachment: fixed;
     background-position: center center;
     background-size: cover; 
 }
 
-/* ---------------------banner css ends ---------------------*/
-
-
-
-
-
-/* --------------------------blog css start---------------------------- */
 
 .light {
     background: #f3f5f7;
@@ -272,9 +259,7 @@ section {
     position: relative;
     color: #ffffff;
   }
-  /* .postcard.dark {
-    background-color: #18151f;
-  } */
+
   .postcard.light {
     background-color: #e1e5ea;
   }
@@ -420,15 +405,13 @@ section {
       width: 45px;
     }
   
-    /* .postcard.dark .postcard__text:before {
-      background: #18151f;
-    } */
+
   
     .postcard.light .postcard__text:before {
       background: #e1e5ea;
     }
   }
-  /* COLORS */
+
   .postcard .postcard__tagbox .green.play:hover {
     background: #79dd09;
     color: black;
@@ -545,128 +528,6 @@ section {
     }
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------scroller to top css------------------------------------ */
-
-
 .to-top {
     background: rgb(22, 21, 25);
     position: fixed;
@@ -679,7 +540,6 @@ section {
     align-items: center;
     justify-content: center;
     font-size:32px;
-    /* color:#1f1f1f; */
     color: #fff;
     text-decoration: none;
     opacity:0;
@@ -695,31 +555,6 @@ section {
   }
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
 @media (max-width: 1200px) {
     .header {
