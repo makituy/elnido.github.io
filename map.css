@@ -91,11 +91,6 @@ section {
     font-weight: bolder;
 }
 
-/* .header .logo img {
-  width: 105px;
-  height: 42px;
-} */
-
 
 .header .logo i {
     color: #219150;
@@ -224,64 +219,11 @@ section {
 }
   
 
-/* ----------------------------------------------------------------    header css ends ---------     */
-
 
 .box {
     height: 10000px;
 }
-/* 
- .map-area .background-img {
-    height: 75vh;
-    width: 100%;
-    background: url(../images/mainmap.jpg) no-repeat;
-    background-color: #eee;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover; 
-} 
 
-  
-.map-area .background-img {
-     position: relative;
-
-}
-
-.map-area .background-img img {
-    height: 100%;
-    width: 100%;
-    display: block;
-}
-
-.landmark-icons img {
-     width: 30px;
-    height: 30px;
-}
-
-img, svg {
-    vertical-align: middle;
-    width: 30px;
-    height: 30px;
-} */
-
-/* .main img {
-    animation: shake 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-} */
 
 .main img {
   animation: shake 5s;
@@ -356,19 +298,11 @@ img, svg {
 }
 
 
-/* .main {
-    width: 1920px;
-    height: 750px;
-     background: url(../images/mainmap.jpg) no-repeat;
-}
- */
 
 .main {
     position: absolute;
     display:block;
     top: 80px;
-    /* left: 25vw;
-    right: 25vw; */
     width: 498px;
     height: 664px;
     background: url(../images/map1.jpg);
@@ -402,11 +336,6 @@ img, svg {
 }
 
 
-
-/* .align .main .jaffna:hover {
-    
-} */
-
 .blur {
     width: 100vw;
     height: 750px;
@@ -414,24 +343,9 @@ img, svg {
     
 }
 
-/* ------------------------------banner, sl map section ends ---------------------------*/
-
-
-
-
-
-
-
-
-
-/* ----------------------------------------cards section start----------------------------- */
-
 body {
-    /* Created with https://www.css-gradient.com */
     background: #ffffff;
-    /* background: -webkit-radial-gradient(top right, #23EC55, #2D51C1);
-    background: -moz-radial-gradient(top right, #23EC55, #2D51C1);
-    background: radial-gradient(to bottom left, #23EC55, #2D51C1); */
+
   }
   
   .wrapper {
@@ -460,11 +374,7 @@ body {
     bottom: 0;
     left: 0;
     background: inherit;
-    /* -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%); */
+
   }
   .card.card-has-bg:hover {
     transform: scale(0.98);
@@ -518,11 +428,6 @@ body {
 
 
 
-
-
-/* ------------------scroller to top css------------------------------------ */
-
-
 .to-top {
     background: rgb(22, 21, 25);
     position: fixed;
@@ -535,7 +440,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size:32px;
-    /* color:#1f1f1f; */
+
     color: #fff;
     text-decoration: none;
     opacity:0;
@@ -549,21 +454,7 @@ body {
     pointer-events: auto;
     opacity:1;
   }
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 @media (max-width: 1200px) {
     .header {
