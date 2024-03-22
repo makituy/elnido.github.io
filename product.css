@@ -218,26 +218,18 @@ section {
 }
   
 
-/* ----------------------------------------------------------------    header css ends ---------     */
-
-
-/* ---------------------banner css */
-
 .banner-area {
     height: 60vh;
     width: 100%;
     background: linear-gradient( #1c1a2521, #000000ab),url(../images/productbanner.webp) no-repeat;
-    /* background-color: #eee; */
     background-attachment: fixed;
     background-position: center center;
     background-size: cover; 
 }
 
-/* ----------------------------------------------------------------    products css start ---------     */
 .tabs {
     display: flex;
     flex-direction: column;
-    /* max-width: 400px; */
     width: 100%;
     padding: 0 100px 0 100px;
     margin-top: 100px;
@@ -271,7 +263,6 @@ section {
   
   .tabs__body {
     background: #fff;
-    /* box-shadow: 0px 4px 5px rgba(0,0,0,.1); */
     border-radius: 25px;
     padding: 30px;
     position: relative;
@@ -284,19 +275,12 @@ section {
     margin-bottom: 20px;
     text-align: center;
   }
-  
-  /* .tabs__text {
-    font-size: 14px;
-    line-height: 1.2;
-    color: #484848;
-  } */
-  
+
   .tabs__content {
     display: none;
   }
   
   .tabs__toggle.is-active {
-    /* background: #e7eef8; */
     background: white;
   }
   
@@ -308,15 +292,6 @@ section {
     display: block;
   }
 
-
-
-
-
-
-
-
-
-/* ------------------------------bootstraps css start----------------------- */
 .adventurepage {
     padding-top: 5%;
   }
@@ -366,65 +341,7 @@ section {
     padding-bottom: 100px;
   }
   
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------scroller to top css------------------------------------ */
-
-
+ 
 .to-top {
     background: rgb(22, 21, 25);
     position: fixed;
@@ -437,7 +354,6 @@ section {
     align-items: center;
     justify-content: center;
     font-size:32px;
-    /* color:#1f1f1f; */
     color: #fff;
     text-decoration: none;
     opacity:0;
@@ -451,26 +367,7 @@ section {
     pointer-events: auto;
     opacity:1;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
+ 
 @media (max-width: 1200px) {
     .header {
       padding: 2rem;
@@ -551,38 +448,6 @@ section {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 779px) {
     .tabs {
         width: 100vw;
@@ -610,57 +475,3 @@ section {
   }
   }
 
-
-
-  
-
-
-
-/*-------------------- horizontal navbar css */
-
-
-
-/* 
-@media (max-width: 599px) {
-    ::-webkit-scrollbar {
-      width: 1px;
-      height: 1px;
-    }
-    
-    ::-webkit-scrollbar-button {
-      width: 1px;
-      height: 1px;
-    }
-    
-    body {
-      background: #111;
-    }
-    
-    div {
-      box-sizing: border-box;
-    }
-    
-    .horizontal-scroll-wrapper {
-      position: absolute;
-      display: block;
-      top: 0;
-      left: 0;
-      width: calc(250px + 1px);
-      max-height: 750px;
-      margin: 0;
-      padding-top: 1px;
-      background: #abc;
-      overflow-y: auto;
-      overflow-x: hidden;
-      transform: rotate(-90deg) translateY(-250px);
-      transform-origin: right top;
-    }
-    .horizontal-scroll-wrapper > div {
-      display: block;
-      padding: 5px;
-      background: #cab;
-      transform: rotate(90deg);
-      transform-origin: right top;
-    }
-
-  }  */
