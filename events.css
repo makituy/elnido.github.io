@@ -218,11 +218,6 @@ section {
 .search-form form label:hover {
     color: #219150;
 }
-  
-
-/* ----------------------------------------------------------------    header css ends ---------     */
-
-/* ---------------------banner css */
 
 .banner-area {
     height: 60vh;
@@ -233,21 +228,6 @@ section {
     background-position: center center;
     background-size: cover; 
 }
-
-/* ---------------------banner css ends ---------------------*/
-
-/* --------------------------events css start---------------------------- */
-
-
-
-
-
-
-
-
-
-
-
 
 .adventureh1 {
     padding-top: 50px;
@@ -303,13 +283,6 @@ section {
 
 
 
-
-
-
-
-
-
-
 @media (max-width: 560px) {
     .container img {
        width: 80vw;
@@ -322,68 +295,6 @@ section {
 }   .container p {
     margin-bottom: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------scroller to top css------------------------------------ */
 
 
 .to-top {
@@ -413,29 +324,6 @@ section {
     opacity:1;
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
 @media (max-width: 1200px) {
     .header {
       padding: 2rem;
