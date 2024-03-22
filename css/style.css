@@ -43,15 +43,12 @@ section {
   margin-top: 1rem;
   display: inline-block;
   border: 0.2rem solid #10221b;
- /* background: #10221b;
-  color: #fff;*/ 
   border-radius: 20px;
   color: #10221b;
   cursor: pointer;
   background: none;
   font-size: 1.7rem;
   padding: 1rem 3rem;
-  /* filter: blur(1px); */
   background: rgba(121, 161, 152, 0.447);
 }
 
@@ -66,15 +63,13 @@ section {
   margin-top: 1rem;
   display: inline-block;
   border: 0.2rem solid #10221b;
- /* background: #10221b;
-  color: #fff;*/ 
   border-radius: 20px;
   color: #10221b;
   cursor: pointer;
   background: none;
   font-size: 1.7rem;
   padding: 1rem 3rem;
-  /* filter: blur(1px); */
+
 }
 
 .btn:hover {
@@ -283,10 +278,8 @@ section {
 .home .box .content h3 {
   font-family: 'Bebas Neue', cursive;
   font-size: 10rem;
-  /* color: #219150; */
   color: white;
   padding-top: .5rem;
-  /* text-transform: uppercase; */
 }
 
 .home .box .content p {
@@ -302,33 +295,6 @@ section {
   color: #10221b;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*adventure homepage section starts*/
 #adventure {
   background-color: #fff;
 }
@@ -363,39 +329,12 @@ section {
   padding: 1rem 0;
   line-height: 2;
 }
-/*adventure homepage section ends*/
 
-
-/*adventure mainpage section starts*/
 .adventurepage {
   
   padding-top: 5%;
 }
 
-
-/*adventure mainpage section ends
-section.information .text-information { 
-  padding: 134px 0;
-}
-
-section.information h5 {
-font-size: 42px;
-font-weight: 700;
-line-height: 48px;
-color: var(--black);
-}
-
-section.information p {
-font-size: 18px;
-font-weight: 300;
-line-height: 28px;
-color: var(--gray-1); 
-padding-top: 20px;
-}
-section.information .info-1 { 
-padding: 183px e; 
-}
-*/
 
 .adventureh1 {
   padding-top: 50px;
@@ -442,17 +381,6 @@ padding: 183px e;
   padding-bottom: 100px;
 }
 
-
-
-
-
-
-
-
-
-/* -------------------------------------home page map css start */
-
-
 .map {
   background: #eee;
   display: -webkit-box;
@@ -473,7 +401,7 @@ padding: 183px e;
           flex: 1 1 42rem;
   padding-bottom: 5rem;
  
-  /* padding-right: 5rem; */
+
 }
 
 .map .image img {
@@ -496,28 +424,6 @@ padding: 183px e;
   padding: 1rem 0;
   line-height: 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .blogs {
@@ -574,24 +480,6 @@ padding: 183px e;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Event homepage css start*/
-
 .title {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
@@ -601,7 +489,6 @@ padding: 183px e;
 
 .event {
   background: white;
-  /* height: 100vh; */
   font-family: "Open Sans", sans-serif;
   padding-bottom: 50px;
 }
@@ -686,23 +573,6 @@ padding: 183px e;
   transform: translateY(-60px);
 }
 
-
-
-
-
-/*Box */
-
-
-
-
-
-
-
-
-
-
-
-
 .example-2 .wrapper {
   background: url(/images/sripada.jpg) center/cover no-repeat;
 }
@@ -778,23 +648,7 @@ padding: 183px e;
 
 }
 
-/* .example-2 .wrapper .rd {
-  background: url(/images/perahera.jpg) center/cover no-repeat;
-  z-index: 5;
-} */
 
-/* Event homepage css end */
-
-
-
-
-
-
-
-
-
-
-/* Products home page section css start  */
 .products {
   position: relative;
   overflow-x: hidden !important;
@@ -1000,65 +854,6 @@ padding: 183px e;
   width: 100%;
 }
 
-/* 
-a .news__item:hover {
-  background-color: red;
-} */
-/* product homepage section ends */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .reviews .slide .text {
   padding: 2rem;
@@ -1110,28 +905,6 @@ a .news__item:hover {
   color: #219150;
   font-size: 1.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .newsletter {
@@ -1189,23 +962,6 @@ a .news__item:hover {
 .clients .silde img {
   height: 12rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer {
@@ -1267,26 +1023,6 @@ a .news__item:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Scroll to top */
-
 .to-top {
   background: rgb(22, 21, 25);
   position: fixed;
@@ -1313,21 +1049,6 @@ a .news__item:hover {
   pointer-events: auto;
   opacity:1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 1200px) {
@@ -1368,7 +1089,6 @@ a .news__item:hover {
   }
 }
 
-/* product home page section media query starts*/
 
 @media screen and (max-width: 1300px) {
   .news-slider {
@@ -1414,7 +1134,7 @@ a .news__item:hover {
   }
 }
 
-/* @media screen and (min-width: 800px) { */
+
   .news__item:hover {
     color: #222222;
     transition-delay: 0.1s;
@@ -1426,20 +1146,12 @@ a .news__item:hover {
   .news__item:hover .news__img {
     box-shadow: none;
   }
-/* } */
-
-
-
-/* product home page section media query ends */
-
-
 
 
 @media (max-width: 560px) {
   .map .image img{
     width: 100%;
-    /* justify-content: space-around; */
-    /* padding-right: 4rem; */
+
   }
   
 .adventurepage .container img {
@@ -1473,23 +1185,6 @@ a .news__item:hover {
   }  
  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 768px) {
@@ -1568,7 +1263,3 @@ a .news__item:hover {
   transform: translateY(19px);
   }
 }
-
-
-
-/*# sourceMappingURL=style.css.map */
